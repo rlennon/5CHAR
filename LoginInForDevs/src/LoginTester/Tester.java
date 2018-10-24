@@ -6,7 +6,10 @@ public class Tester
 {
 	   public static void main(String [] args)
 	   {
-	         
+		/*tester class that takes in the user
+		* input and compares it to the already established usernames
+		*and passwords.
+		*loops until right credentials are entered*/	   
 	         @SuppressWarnings("resource")
 
 			Scanner keyboardIn = new Scanner(System.in);
