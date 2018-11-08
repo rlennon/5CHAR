@@ -1,16 +1,9 @@
 
 
 
-*** Hello, and Welcome heartily to the 5char Repo on GitHub ***
-
-The Members are:
-
-    Jack
-    Martin (L00110299)
-    Patrick
-    Brid (L00092484)
-    Roman
-    Liam (L00131195)
+*** This is the Documents branch with 5Char team ***
+*** A place for non-code material & other media ***
 
 
-Administrator: Ruth Lennon
+
+
