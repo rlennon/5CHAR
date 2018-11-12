@@ -1,0 +1,46 @@
+
+# The team 5Char Strategy Metting Minutes
+===========================================
+
+# Time, Location: 15.30, Library Rm.3
+# Date: 06/11/2018
+# Attendees: Patrick, Brid, Roman, Liam
+---------------------------------------
+
+
+1. Looked at requirements document (assignment)
+	decided team needs more broadening of
+	steps for 2 users Scarlett_Overkill
+	and Administrator.
+
+2. Looked at the Login Screen content, as this
+	will be the first screen to all users.
+
+3. Made mock Sequence Diagrams, which was later
+	formalised into LogisticsSystem.jpg
+	https://lyit.slack.com/archives/GDEAG8QPQ/p1541530599052600
+
+and also Logistics System Flow of Events.doc
+
+https://lyit.slack.com/files/UDD13LF9U/FDWHJ60JD/logisticssystem_flow_of_events.doc
+
+
+4. Looked at mock Login Screen to make improvements, team has not approved for upload to Master branch, still needs working on.
+
+5. Decided to make a 'Storyboard', showing the pages (4 so far) as they will interact together.
+
+6. Made referrence to 'Balsamiq' tool and the
+	Eclipse Dynamic Web Project tool which
+	we will use for web App development.
+
+7. Talked about user credentials storage format,
+	within MySql database accessed via
+	Php code internal to Frontend web pages.
+
+8. Discussed delegation of tasks, going forward
+	but resolved to keep things simple and
+	to get a basic UI working soon.
+
+Approval of system design pending...will discuss
+in next meeting TBD
+
