@@ -29,12 +29,11 @@ public class Tester {
 
 		Class.forName("com.mysql.cj.jdbc.Driver").newInstance(); // loading the driver
 		Connection con = null;
-		// try {
-		con = DriverManager.getConnection(url, user, password);
-		// } catch (SQLException e) {
-		// TODO Auto-generated catch block
-		// e.printStackTrace();
-		// } //
+		try {
+			con = DriverManager.getConnection(url, user, password);
+		} catch (SQLException e) {
+			e.printStackTrace();
+		}
 
 		PreparedStatement pst = con.prepareStatement(sql);
 
