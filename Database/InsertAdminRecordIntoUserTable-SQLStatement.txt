@@ -1,3 +1,0 @@
-#This statement inserts the administrator record into the users table for the 5CHAR Scarlett #Overkill database.
-
-INSERT INTO `users`(`user_name`, `password`) VALUES ('admin','password')
