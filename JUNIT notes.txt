@@ -1,0 +1,14 @@
+What is JUnit?
+JUnit is a java framework tester which is part of the Unit testing family. It
+is used to figure out whether code is fit for it's purpose. It tests code when
+the programmer put an @ code before the method. 
+Examples of the @'s are 
+- @test - which tests the methods in the classes runtime
+- @beforeclass - which test the methods before the class
+- @before - tests methods before all methods with @test
+- @after - tests methods after all the @test methods
+- @afterclass - which tests after the class is done executing
+
+Sources:
+https://en.wikipedia.org/wiki/JUnit
+https://junit.org/junit5/docs/current/user-guide/
