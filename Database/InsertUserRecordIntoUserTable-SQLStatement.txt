@@ -1,0 +1,3 @@
+#SQL statement which inserts Scarlett Overkill user into the users table in the 5CHAR database
+
+INSERT INTO `users`(`user_name`,`user_password`) VALUES ('scarlettoverkill','meangirls')

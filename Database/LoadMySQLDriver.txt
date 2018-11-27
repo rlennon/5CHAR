@@ -1,0 +1,10 @@
+//This snippet of java code loads the MYSQL driver. It also sets the url, user, password     		
+//values and creates the SQl SELECT statement for the user table. 
+
+String url = "jdbc:mysql://localhost:3306/";
+String user = "root";
+String password = "";
+String sql = "SELECT * FROM user_account WHERE user_name = ? and password = ?";
+
+Class.forName("com.mysql.cj.jdbc.Driver").newInstance(); 
+
