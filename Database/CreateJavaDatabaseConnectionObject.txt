@@ -1,0 +1,9 @@
+//Patrick Doherty 28.11.2018
+//Java code which creates a JDBC connection object - con - beween database and application
+
+Connection con = null;
+		try {
+			con = DriverManager.getConnection(url, user, password);
+		} catch (SQLException e) {
+			e.printStackTrace();	//allows for better analysis of any errors
+		}
