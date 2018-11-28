@@ -19,9 +19,9 @@
        $username=$_SESSION['username'];
        echo "Hi-".$username."!"."";
        echo "Choose one of the menu options to View, Change or Delete Order. &nbsp;&nbsp;";
-       echo "<p><a href='managecomments.php'>View Order</a>
-       <p><a href='managepropertys.php'>Change Order</a>
-       <p><a href='addproperty.php'>Delete Order</a>
+       echo "<p><a href='vieworder.php'>View Order</a>
+       <p><a href='manageorder.php'>Change Order</a>
+       <p><a href='deleteorder.php'>Delete Order</a>
        <p><a href='logout.php'>Logout</a>";
         }
       ?>
