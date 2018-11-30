@@ -1,0 +1,12 @@
+//Patrick Doherty 30.11.2018
+//Java code which creates a prepared statement object. 
+//Prepared statements aka parameterised statements are SQL templates into which certain values are entered at execution.
+//They are a good security feature against SQL injection as the values are transmitted separately to the actual SQL statement.
+
+
+PreparedStatement pst = con.prepareStatement(sql); // create prepared statement object
+
+		pst.execute("USE test");           // use TEST database
+
+		pst.setString(1, usernameIn);      // replace usernameIn variable inside SQL statement with name entered into console
+		pst.setString(2, passwordIn);      // replace passwordIn variable inside SQL statement with password entered into console
