@@ -1,0 +1,43 @@
+﻿input[type=text], input[type=password] {
+    font-family: arial;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-family: arial;
+    font-size:60px;
+}
+
+/* Set a style for all buttons */
+button {
+    background-color: teal;
+    color: white;
+    padding: 14px 20px;
+    margin: 20px 0;
+    border: none;
+    cursor: pointer;
+    width: 20%;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
